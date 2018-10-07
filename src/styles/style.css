@@ -20,6 +20,7 @@ h1 {
 header {
     margin: 10px 0;
     background-color: #618ad2;
+    border-radius: 3px;
 }
 
 .clearfix::after {
@@ -30,6 +31,7 @@ header {
 
 footer {
     background-color: #618ad2;
+    border-radius: 3px;
 }
 
 .block-center {
