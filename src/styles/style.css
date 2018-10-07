@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+    max-width: 1024px;
+    margin: 10px auto;
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+}
+
+h1 {
+    color: #f5f5f5;
+    text-shadow: 2px 2px 0 #cccccc;
+}
+
+.block-header {
+    float: left;
+    padding: 10px;
+}
+
+header {
+    margin: 10px 0;
+    background-color: #618ad2;
+    border-radius: 3px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #618ad2;
+    border-radius: 3px;
+}
+
+.block-center {
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+}
