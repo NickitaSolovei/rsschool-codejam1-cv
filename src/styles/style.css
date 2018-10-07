@@ -1,0 +1,34 @@
+body {
+    box-sizing: border-box;
+    max-width: 1024px;
+    margin: 10px auto;
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+}
+
+.block-header {
+    float: left;
+    padding: 10px;
+}
+
+header {
+    margin: 10px 0;
+    background-color: #618ad2;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #618ad2;
+}
+
+.block-center {
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px;
+}
